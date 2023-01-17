@@ -5,6 +5,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
 }
 /* header css style */
 
@@ -13,7 +14,7 @@ nav{
     height: 94px;
     background: #562EFF;
     display: flex;
-    justify-content: space-around
+    justify-content: space-evenly;
 
 }
 .nav-left, .nav-right{
@@ -44,4 +45,42 @@ a{
     text-decoration: none;
     color: white;
     
+}
+/* section css style */
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+.conteinar{
+    width: 870px;
+    background-color: white;
+    border-radius: 5px;
+}
+.top-title{
+    color: #562EFF;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-top: 11px;
+    
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+    padding-top: 15px;
+    grid-row-gap: 29px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    padding-left: 16px;
+    font-weight: 500;
+    font-size: 18px;
 }
