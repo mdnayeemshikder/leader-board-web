@@ -172,3 +172,22 @@ p{
     font-size: 22px;
 }
 
+/* phone responsibolity */
+
+@media only screen and (max-width:688px) {
+    .top-title{
+        text-align: center;
+    }
+    .conteinar{
+        width: 100%;
+    }
+    .players,.blogs{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center
+    }
+}
+
